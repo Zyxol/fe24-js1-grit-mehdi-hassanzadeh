@@ -1,0 +1,36 @@
+/* Variables */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-family: Arial, sans-serif;
+}
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header, Main, Footer */
+header, footer {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+h1, h2 {
+    color: var(--secondary-color);
+}
