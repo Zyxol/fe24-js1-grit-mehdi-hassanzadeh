@@ -33,7 +33,7 @@ document.querySelector("form").addEventListener("submit", function(event) {
             const iconCode = data.weather[0].icon;
             const iconUrl = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
             
-            document.querySelector("#weatherInfo").innerHTML = 
+            document.querySelector(".weatherInfo").innerHTML = 
             `<p>Weather: ${weatherDescription}</p>
              <p>Temperature: ${temperature}°C</p>
              <p>Wind Speed: ${data.wind.speed} m/s</p>

@@ -32,5 +32,39 @@ main {
 }
 
 h1, h2 {
-    color: var(--secondary-color);
+    color: white;
+}
+
+section {
+    background-color: lightgray;
+}
+
+#userInput {
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+}
+
+#userInput input {
+    padding: 15px;
+    width: 85%;
+    margin-right: 15px;
+}
+
+#userInput button {
+    padding: 15px;
+    color: white;
+    border: solid 2px black;
+    cursor: pointer;
+}
+
+.weatherInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.weatherInfo img {
+    width: 100px;
+    height: 100px;
 }
